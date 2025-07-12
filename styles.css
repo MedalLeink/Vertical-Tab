@@ -17,14 +17,38 @@ body {
 }
 
 .container {
+    max-width: 950px;
+    width: 100%;
     background: #fff;
     padding: 40px 50px 40px 40px;
+    border-radius: 12px;
+    margin: 0 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .container .main-title {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+.container .content .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .list label {
+    height: 60px;
+    font-size: 22px;
+    /* background: red; */
+    width: 20%;
+    font-weight: 500;
+    border-radius: 12px;
+    line-height: 60px;
+    cursor: pointer;
+    margin: 5px 0;
+    padding-left: 25px;
+    color: #333;
 }
 
 
