@@ -141,6 +141,13 @@ body {
     display: block;
 }
 
+#blog:checked ~ .text-content .home,
+#help:checked ~ .text-content .home,
+#code:checked ~ .text-content .home,
+#about:checked ~ .text-content .home {
+    display: none;
+}
+
 .content .text-content .title {
     font-size: 25px;
     font-weight: 500;
@@ -149,4 +156,12 @@ body {
 
 .content .text-content p {
     text-align: justify;
+}
+
+.content .text {
+    display: none;
+}
+
+.content input {
+    display: none;
 }
