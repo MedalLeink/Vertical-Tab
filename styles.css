@@ -32,6 +32,10 @@ body {
     margin-bottom: 20px;
 }
 
+.container .content {
+    display: flex;
+}
+
 .container .content .list {
     display: flex;
     flex-direction: column;
