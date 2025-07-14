@@ -97,3 +97,6 @@ body {
     top: 240px;
 }
 
+.container input[type="radio"] {
+    display: none;
+}
