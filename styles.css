@@ -113,6 +113,12 @@ body {
     height: 100%;
 }
 
+.content .text-content .title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 .content .text-content p {
     text-align: justify;
 }
