@@ -16,10 +16,10 @@ body {
     background: #dad3f8;
 }
 
-::selection {
+/* ::selection {
     background: #6d50e2;
     color: #fff;
-}
+} */
 
 .container {
     max-width: 950px;
@@ -37,12 +37,6 @@ body {
     margin-bottom: 20px;
 }
 
-.container .main-title {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
 .container .content {
     display: flex;
     align-items: center;
@@ -55,6 +49,12 @@ body {
     position: relative;
     width: 20%;
     margin-right: 50px;
+}
+
+.container .main-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .content .list label {
@@ -116,9 +116,9 @@ body {
     top: 240px;
 }
 
-.container input[type="radio"] {
+/* .container input[type="radio"] {
     display: none;
-}
+} */
 
 .container .content .text-content {
     width: 80%;
@@ -156,6 +156,10 @@ body {
 
 .content .text-content p {
     text-align: justify;
+}
+
+.content .text-content .home {
+    text-align: block;
 }
 
 .content .text {
