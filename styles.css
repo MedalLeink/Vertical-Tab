@@ -121,6 +121,14 @@ body {
     display: block;
 }
 
+#home:checked ~ .text-content .home,
+#blog:checked ~ .text-content .blog,
+#help:checked ~ .text-content .help,
+#code:checked ~ .text-content .code,
+#about:checked ~ .text-content .about {
+    display: block;
+}
+
 .content .text-content .title {
     font-size: 25px;
     font-weight: 500;
