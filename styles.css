@@ -34,6 +34,8 @@ body {
 
 .container .content {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container .content .list {
@@ -41,6 +43,7 @@ body {
     flex-direction: column;
     position: relative;
     width: 20%;
+    margin-right: 50px;
 }
 
 .content .list label {
@@ -103,4 +106,13 @@ body {
 
 .container input[type="radio"] {
     display: none;
+}
+
+.container .content .text-content {
+    width: 80%;
+    height: 100%;
+}
+
+.content .text-content p {
+    text-align: justify;
 }
